@@ -14,25 +14,10 @@
     
       <ul class="nav navbar-nav navbar-right">
 
-        <li><%= link_to root_path do %>
-            <span class="glyphicon glyphicon-gift"> </span> Home
-        </li>
-        <% end %>
-
-        <li><%= link_to shop_path do %>
-            <span class="glyphicon glyphicon-shopping-cart"></span> Shop Here
-        </li>
-        <% end %>
-
-        <li><%= link_to gifts_path do %>
-            <span class="glyphicon glyphicon-gift"></span> Gifting
-        </li>
-        <% end %>
-
-        <li><%= link_to about_path do %>
-            <span class="glyphicon glyphicon-gift"></span> About Us
-        </li>
-        <% end %> 
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "Shop Here", shop_path %></li>
+        <li><%= link_to "Gifting", gifts_path %></li>
+        <li><%= link_to "About Us", about_path %></li>
 
        </ul>        
 
