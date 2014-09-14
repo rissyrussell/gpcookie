@@ -5,4 +5,9 @@ class PagesController < ApplicationController
   def about
   end
   
+  def shop
+  end
+
+  def gifts
+  end
 end

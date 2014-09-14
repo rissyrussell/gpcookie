@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root "pages#home" #creates root_path
   get "about" => "pages#about" # creates about_path
+  get "shop" => "pages#shop" # creates shop_path
+  get "gifts" => "pages#gifts" # creates about_path
 
 
   # The priority is based upon order of creation: first created -> highest priority.
